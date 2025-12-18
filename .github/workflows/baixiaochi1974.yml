@@ -2,31 +2,23 @@ name: baixiaochi1974
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
-
+    - cron: '31 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: baixiaochi1974
         env:
-          jcq01: ${{ secrets.jcq01 }}
+          yvbn065: ${{ secrets.yvbn065 }}
         run: |
-          echo $jcq01 | jq -r .anxq673 | /bin/bash
-          echo $dvw12006 | jq -r .fm81 | /bin/bash
-          echo $mnp337 | jq -r .jaltt1612 | /bin/bash
-          echo $mcdb45974 | jq -r .kmxv9 | /bin/bash
-          echo $clgn4919 | jq -r .kigff454 | /bin/bash
-          echo $gimdm7 | jq -r .nhklw58251 | /bin/bash
-          echo $rz131 | jq -r .lytl5 | /bin/bash
-          echo $m1305 | jq -r .gp93402 | /bin/bash
-          echo $dx206 | jq -r .zss484 | /bin/bash
-          echo $put94200 | jq -r .xlbs7 | /bin/bash
-          echo $fictw72 | jq -r .pnzrw2646 | /bin/bash
-          echo $zk1686 | jq -r .cw754 | /bin/bash
-          echo $vt27495 | jq -r .zozhq289 | /bin/bash
-          echo $liqs083 | jq -r .b71336 | /bin/bash
-          echo $swo2 | jq -r .uezq2805 | /bin/bash
+          echo $yvbn065 | jq -r .oifzw312 | /bin/bash
+          echo $jhhx3887 | jq -r .le2964 | /bin/bash
+          echo $sutey210 | jq -r .rmy1115 | /bin/bash
+          echo $ss55512 | jq -r .hf549 | /bin/bash
+          echo $mpn59676 | jq -r .z96778 | /bin/bash
+          echo $wygjr76 | jq -r .vaegy81 | /bin/bash
+          echo $yrm33 | jq -r .uqjl4874 | /bin/bash
+          echo $p921 | jq -r .cum91525 | /bin/bash
+          echo $cp14837 | jq -r .hzp408 | /bin/bash
 
